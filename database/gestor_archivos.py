@@ -23,7 +23,7 @@ def guardar_datos_json(lista_clientes):
             
             data_serializada.append(datos)
 
-        # Escribimos en el archivo con formato legible (indent=4)
+        # Escribimos en el archivo con formato legible 
         with open(FILE_NAME, "w", encoding='utf-8') as f:
             json.dump(data_serializada, f, indent=4, ensure_ascii=False)
         print(f"✅ Sincronización exitosa en: {FILE_NAME}")
