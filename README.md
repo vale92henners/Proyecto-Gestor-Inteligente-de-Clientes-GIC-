@@ -1,11 +1,11 @@
 # 🛠️ Documentación Técnica: Sistema GIC
 
 ## 1. Arquitectura y Diseño Orientado a Objetos
-[cite_start]El sistema **GIC** se fundamenta en el paradigma de **Programación Orientada a Objetos (POO)** [cite: 11, 14][cite_start], utilizando una estructura modular que separa la lógica de negocio de la persistencia[cite: 14]. 
+El sistema **GIC** se fundamenta en el paradigma de **Programación Orientada a Objetos (POO)** , utilizando una estructura modular que separa la lógica de negocio de la persistencia. 
 
-* [cite_start]**Núcleo del Software**: Se define en la clase base `Cliente` [cite: 57][cite_start], la cual implementa el **encapsulamiento** mediante el atributo privado `__saldo` para proteger la integridad financiera de los registros[cite: 17, 60]. 
-* [cite_start]**Estructura de Herencia**: A partir de esta base, se aplica la herencia para crear las subclases `ClienteNormal`, `ClienteVIP` y `ClienteCorporativo`[cite: 17, 68].
-* [cite_start]**Escalabilidad**: Esta arquitectura permite que cada subclase gestione atributos específicos, como el descuento premium o el RUT de empresa, de manera eficiente[cite: 68, 70].
+* **Núcleo del Software**: Se define en la clase base `Cliente`, la cual implementa el **encapsulamiento** mediante el atributo privado `__saldo` para proteger la integridad financiera de los registros. 
+* **Estructura de Herencia**: A partir de esta base, se aplica la herencia para crear las subclases `ClienteNormal`, `ClienteVIP` y `ClienteCorporativo`.
+* **Escalabilidad**: Esta arquitectura permite que cada subclase gestione atributos específicos, como el descuento premium o el RUT de empresa, de manera eficiente.
 
 
 
