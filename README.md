@@ -26,3 +26,5 @@ Siguiendo los principios de las **bases de datos relacionales** , el sistema org
 * **Validaciones Avanzadas**: Antes de que cualquier dato sea procesado por el **RDBMS** , el sistema verifica el formato de los correos electrónicos y la positividad de los saldos.
 * **Gestión de Errores**: Se capturan anomalías mediante un manejo de excepciones estructurado.
 * **Auditoría y Continuidad**: Para garantizar la seguridad, se integra un registro de actividad (**Logs**) que documenta cada inserción, error o consulta realizada en el inventario de clientes.
+
+* ![Diagrama de Clases - Sistema de Clientes](diagrama%20uml.png)
