@@ -14,9 +14,9 @@ El sistema **GIC** se fundamenta en el paradigma de **Programación Orientada a 
 ## 2. Estrategia de Persistencia y Base de Datos
 Siguiendo los principios de las **bases de datos relacionales** , el sistema organiza la información en tablas compuestas por filas (**tuplas**) y columnas (**atributos**) , donde cada registro es identificado unívocamente mediante una **clave primaria**.
 
-> ## 📊 Modelos de Almacenamiento
-> 1. **SQLite (Principal)**: Garantiza la integridad referencial y permite consultas eficientes mediante el lenguaje **SQL**.
-> 2. **JSON (Secundaria)**: Implementada para facilitar el intercambio de datos semiestructurados y asegurar la portabilidad de los respaldos fuera del motor de base de datos.
+## 📊 Modelos de Almacenamiento
+1. **SQLite (Principal)**: Garantiza la integridad referencial y permite consultas eficientes mediante el lenguaje **SQL**.
+2. **JSON (Secundaria)**: Implementada para facilitar el intercambio de datos semiestructurados y asegurar la portabilidad de los respaldos fuera del motor de base de datos.
 
 ---
 
