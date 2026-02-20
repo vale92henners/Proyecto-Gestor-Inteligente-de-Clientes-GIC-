@@ -32,7 +32,7 @@ def guardar_datos_json(lista_clientes):
         print(f"❌ Error al exportar JSON: {e}")
 
 def cargar_datos_json():
-    """Lee el JSON y reconstruye los objetos correspondientes."""
+
     lista_objetos = []
     if not os.path.exists(FILE_NAME):
         return lista_objetos
@@ -41,7 +41,7 @@ def cargar_datos_json():
         with open(FILE_NAME, "r", encoding='utf-8') as f:
             datos = json.load(f)
             for d in datos:
-                # Rehidratamos el objeto según su tipo guardado
+                
                 if d["tipo"] == 'ClienteVIP':
                     lista_objetos.append(ClienteVIP(d["nombre"], d["email"], d["saldo"]))
                 elif d["tipo"] == 'ClienteCorporativo':
