@@ -1,0 +1,21 @@
+[
+    {
+        "nombre": "matias",
+        "email": "matias@gmail.com",
+        "saldo": 9000000.0,
+        "tipo": "ClienteNormal"
+    },
+    {
+        "nombre": "agustin",
+        "email": "agistin@gmail.com",
+        "saldo": 7000000.0,
+        "tipo": "ClienteVIP"
+    },
+    {
+        "nombre": "cristopher",
+        "email": "cristopher@gmail.com",
+        "saldo": 50000000.0,
+        "tipo": "ClienteCorporativo",
+        "rut_empresa": "RUT-EMPRESA"
+    }
+]
